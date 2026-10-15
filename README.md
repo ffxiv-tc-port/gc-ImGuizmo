@@ -1,3 +1,27 @@
+<!-- ffxiv-tc-port 繁體中文說明開始 -->
+# ImGuizmo(台服 fork)
+
+Dear ImGui 的 3D 操作軸（移動／旋轉／縮放）與曲線、序列編輯元件（上游 [goatcorp/gc-ImGuizmo](https://github.com/goatcorp/gc-ImGuizmo) 的 `modified` 分支，再往上是 [CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo)）。由 cimguizmo 編進 Dalamud 本體的 `cimguizmo.dll`。
+
+## 台服 fork 的目的
+
+- 讓 cimguizmo 的子模組網址指向本 org，建置不依賴上游 repo 是否還在、有沒有被改寫。
+
+## 與上游的差異
+
+- 沒有我方的 commit，分支內容與上游相同。
+- [gc-cimguizmo](https://github.com/ffxiv-tc-port/gc-cimguizmo) 釘的是早一顆的版本，分支頂端那顆上游 commit（開放樣式／顏色覆寫）沒有採用。
+
+## 誰在用它
+
+- [gc-cimguizmo](https://github.com/ffxiv-tc-port/gc-cimguizmo)：子模組 `ImGuizmo`。
+- 經由 gc-cimguizmo 間接使用：[Dalamud](https://github.com/ffxiv-tc-port/Dalamud)（`lib/cimguizmo/ImGuizmo`）。
+
+---
+
+以下為上游原始 README，內容未經修改：
+
+<!-- ffxiv-tc-port 繁體中文說明結束 -->
 # ImGuizmo
 
 Latest stable tagged version is 1.83. Current master version is 1.84 WIP.
